@@ -73,7 +73,7 @@ public:
         return Amount(a * b.amount);
     }
     // DO NOT IMPLEMENT
-    friend Amount operator*(const double a, const Amount b) = delete;
+    // friend Amount operator*(const double a, const Amount b) = delete;
     int64_t operator/(const Amount b) const { return amount / b.amount; }
     Amount operator/(const int64_t b) const { return Amount(amount / b); }
     Amount operator/(const int b) const { return Amount(amount / b); }
