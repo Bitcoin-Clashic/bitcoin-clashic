@@ -28,8 +28,6 @@ env:
     - WINEDEBUG=fixme-all
     - MATRIX_EVAL="CC=gcc && CXX=g++"
   matrix:
-# ARM
-    - HOST=arm-linux-gnueabihf PACKAGES="g++-7-arm-linux-gnueabihf" DEP_OPTS="NO_QT=1" CHECK_DOC=0 GOAL="install" BITCOIN_CONFIG="--enable-glibc-back-compat --enable-reduce-exports"
 # Win32
     - HOST=i686-w64-mingw32 DPKG_ADD_ARCH="i386" DEP_OPTS="NO_QT=1" PACKAGES="python3 nsis g++-mingw-w64-i686 wine1.6 bc" RUN_TESTS=true GOAL="install" BITCOIN_CONFIG="--enable-reduce-exports" TRAVIS_NOHANG_WORKAROUND=1
 # 32-bit + dash
