@@ -1,6 +1,12 @@
 Bitcoin Clashic ABCD
 ====================
 
+THIS IMPLEMENTATION IS DEPRECATED
+---------------------------------
+EDA, magic bits, block target and sha256 PoW match the original ABC 0.15.1 specs.
+Bitcoin Clashic has hardforked many times since this implementation. It is left for historical purposes.
+Please see https://github.com/Bitcoin-Clashic/wallet-official for latest implementation.
+
 http://bitcoinclashic.org/
 
 What is Bitcoin?
